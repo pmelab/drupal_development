@@ -27,4 +27,5 @@ includes[] = https://raw.githubusercontent.com/pmelab/drupal_development/7.x-1.x
 projects[drupal_development][type] = "profile"
 projects[drupal_development][download][type] = "git"
 projects[drupal_development][download][url] = "git@github.com:pmelab/drupal_development.git"
+projects[drupal_development][download][branch] = "7.x-1.x"
 projects[drupal_development][options][working-copy] = TRUE
