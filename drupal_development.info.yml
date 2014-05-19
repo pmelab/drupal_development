@@ -36,8 +36,8 @@ dependencies:
   - views
   - views_ui
   - tour
+  # Custom modules
   - summoner
-  - summoner_test
 
 themes:
   - bartik
