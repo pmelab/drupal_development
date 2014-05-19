@@ -18,4 +18,6 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow.
 
-projects[drupal][tag] = 8.0-alpha11
+projects[drupal][download][type] = "git"
+projects[drupal][download][url] = "git://git.drupalcode.org/project/drupal.git"
+projects[drupal][download][tag] = 8.0-alpha11
