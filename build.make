@@ -18,7 +18,7 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow.
 
-includes[] = drupal-org-core.make
+includes[] = https://raw.githubusercontent.com/pmelab/drupal_development/7.x-1.x/drupal-org-core.make
 
 ; Install profile
 ; ---------------
