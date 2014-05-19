@@ -19,6 +19,6 @@ api = 2
 ; alternative core projects like Pressflow.
 
 projects[drupal][download][type] = "git"
-projects[drupal][download][url] = "http://git.drupalcode.org/project/drupal.git"
+projects[drupal][download][url] = "git://git.drupalcode.org/project/drupal.git"
 projects[drupal][download][branch] = 8.x
 projects[drupal][download][tag] = 8.0-alpha11
