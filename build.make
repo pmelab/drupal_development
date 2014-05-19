@@ -27,3 +27,4 @@ includes[] = drupal-org-core.make
 projects[drupal_development][type] = "profile"
 projects[drupal_development][download][type] = "git"
 projects[drupal_development][download][url] = "git@github.com:pmelab/drupal_development.git"
+projects[drupal_development][options][working-copy] = TRUE
