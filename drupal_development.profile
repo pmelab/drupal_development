@@ -1,0 +1,4 @@
+<?php
+/**
+ * Development installation profile.
+ */

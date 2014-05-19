@@ -1,0 +1,4 @@
+name = Drupal Development
+description = Simple development profile for custom modules and themes.
+version = 7.26
+core = 7.x
