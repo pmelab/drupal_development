@@ -22,8 +22,3 @@ dependencies[] = file
 dependencies[] = rdf
 
 dependencies[] = devel
-dependencies[] = hurricane
-dependencies[] = hurricane_integration
-dependencies[] = drupdown
-dependencies[] = codemirror
-dependencies[] = summoner

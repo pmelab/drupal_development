@@ -36,6 +36,8 @@ projects[drupdown][options][working-copy] = TRUE
 ; Contributed modules
 projects[libraries][version] = 2.2
 projects[devel][version] = 1.5
+projects[wysiwyg][version] = 2.x-dev
+projects[simplehtmldom][version] = 2.1
 
 ; External libraries
 libraries[raphael][download][type] = "git"
@@ -52,4 +54,4 @@ libraries[codemirror][download][tag] = "4.1.0"
 
 libraries[php-markdown][download][type] = "git"
 libraries[php-markdown][download][url] = "https://github.com/michelf/php-markdown.git"
-libraries[php-markdown][download][tag] = "1.4.1"
+libraries[php-markdown][download][tag] = "x1.2.8"
