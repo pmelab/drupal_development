@@ -8,20 +8,5 @@
  * Implements hook_install().
  */
 function drupal_development_install() {
-  // Enable custom modules here instead of using profile dependencies for easier
-  // re-installation.
-  module_enable(array(
-    'hurricane',
-    'hurricane_spinjs',
-    'hurricane_raphael',
-    'hurricane_integration',
-    'hurricane_tests',
-    'drupdown',
-    'codemirror',
-    'summoner',
-  ), TRUE);
-  theme_enable(array('bartik', 'seven'));
-  variable_set('theme_default', 'bartik');
-  variable_set('admin_theme', 'seven');
-  variable_set('node_admin_theme', '1');
+  \Drupal::config('node.settings')->set('use_admin_theme', '1')->save();
 }

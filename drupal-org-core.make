@@ -3,7 +3,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-core = 7.x
+core = 8.x
 
 ; API version
 ; -----------
@@ -18,4 +18,4 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow.
 
-projects[drupal][version] = 7.28
+projects[drupal][tag] = 8.0-alpha11

@@ -3,7 +3,7 @@
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
 
-core = 7.x
+core = 8.x
 
 ; API version
 ; -----------
@@ -18,7 +18,7 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow.
 
-includes[] = https://raw.githubusercontent.com/pmelab/drupal_development/7.x-1.x/drupal-org-core.make
+includes[] = https://raw.githubusercontent.com/pmelab/drupal_development/8.x-1.x/drupal-org-core.make
 
 ; Install profile
 ; ---------------
@@ -27,4 +27,5 @@ includes[] = https://raw.githubusercontent.com/pmelab/drupal_development/7.x-1.x
 projects[drupal_development][type] = "profile"
 projects[drupal_development][download][type] = "git"
 projects[drupal_development][download][url] = "git@github.com:pmelab/drupal_development.git"
+projects[drupal_development][download][branch] = "8.x-1.x"
 projects[drupal_development][options][working-copy] = TRUE
