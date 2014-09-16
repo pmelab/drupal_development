@@ -1,0 +1,16 @@
+Index: includes/file.inc
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- includes/file.inc	(date 1407345243000)
++++ includes/file.inc	(revision )
+@@ -2125,7 +2125,7 @@
+       if (!preg_match($options['nomask'], $filename) && $filename[0] != '.') {
+         $uri = "$dir/$filename";
+         $uri = file_stream_wrapper_uri_normalize($uri);
+-        if (is_dir($uri) && $options['recurse']) {
++        if (is_dir($uri) && $options['recurse'] && !(is_link($dir) && (strpos(realpath($uri), realpath($dir)) == 0))) {
+           // Give priority to files in this folder by merging them in after any subdirectory files.
+           $files = array_merge(file_scan_directory($uri, $mask, $options, $depth + 1), $files);
+         }
