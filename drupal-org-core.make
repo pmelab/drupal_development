@@ -18,4 +18,4 @@ api = 2
 ; a core project. This is usually Drupal core, but you can also specify
 ; alternative core projects like Pressflow.
 
-projects[drupal][version] = 7.28
+projects[drupal][version] = 7.31
