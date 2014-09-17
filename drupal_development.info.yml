@@ -8,6 +8,7 @@ dependencies:
   - node
   - history
   - block
+  - block_content
   - breakpoint
   - ckeditor
   - color
@@ -16,7 +17,6 @@ dependencies:
   - contextual
   - contact
   - datetime
-  - custom_block
   - quickedit
   - editor
   - entity_reference
