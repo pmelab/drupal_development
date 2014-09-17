@@ -19,4 +19,3 @@ api = 2
 ; alternative core projects like Pressflow.
 
 projects[drupal][version] = 7.31
-projects[drupal][patch][] = patches/circular_symbolic_links.patch
