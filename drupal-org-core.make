@@ -21,4 +21,4 @@ api = 2
 projects[drupal][download][type] = "git"
 projects[drupal][download][url] = "git://git.drupalcode.org/project/drupal.git"
 projects[drupal][download][branch] = 8.0.x
-projects[drupal][options][working-copy] = true
+projects[drupal][download][tag] = 8.0.0-alpha14
