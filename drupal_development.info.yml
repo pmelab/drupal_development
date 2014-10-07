@@ -36,8 +36,10 @@ dependencies:
   - views
   - views_ui
   - tour
+  - testing
   # Custom modules
   - summoner
+  - codemirror
 
 themes:
   - bartik
