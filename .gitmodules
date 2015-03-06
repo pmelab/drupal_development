@@ -1,0 +1,12 @@
+[submodule "modules/summoner"]
+	path = modules/summoner
+	url = pmelab@git.drupal.org:project/summoner.git
+[submodule "modules/hurricane"]
+	path = modules/hurricane
+	url = pmelab@git.drupal.org:project/hurricane.git
+[submodule "modules/drupdown"]
+	path = modules/drupdown
+	url = git@github.com:pmelab/drupdown.git
+[submodule "modules/codemirror"]
+	path = modules/codemirror
+	url = git@github.com:pmelab/codemirror.git

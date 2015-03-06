@@ -1,38 +1,6 @@
 core = 7.x
 api = 2
 
-; Defaults
-defaults[projects][subdir] = "contrib"
-
-; Custom modules
-projects[hurricane][type] = "module"
-projects[hurricane][download][type] = "git"
-projects[hurricane][download][branch] = "7.x-1.x"
-projects[hurricane][download][url] = "git@github.com:pmelab/hurricane.git"
-projects[hurricane][subdir] = custom
-projects[hurricane][options][working-copy] = TRUE
-
-projects[summoner][type] = "module"
-projects[summoner][download][type] = "git"
-projects[summoner][download][branch] = "7.x-1.x"
-projects[summoner][download][url] = "git@github.com:pmelab/summoner.git"
-projects[summoner][subdir] = custom
-projects[summoner][options][working-copy] = TRUE
-
-projects[codemirror][type] = "module"
-projects[codemirror][download][type] = "git"
-projects[codemirror][download][branch] = "7.x-1.x"
-projects[codemirror][download][url] = "git@github.com:pmelab/codemirror.git"
-projects[codemirror][subdir] = custom
-projects[codemirror][options][working-copy] = TRUE
-
-projects[drupdown][type] = "module"
-projects[drupdown][download][type] = "git"
-projects[drupdown][download][branch] = "7.x-1.x"
-projects[drupdown][download][url] = "git@github.com:pmelab/drupdown.git"
-projects[drupdown][subdir] = custom
-projects[drupdown][options][working-copy] = TRUE
-
 ; Contributed modules
 projects[libraries][version] = 2.2
 projects[devel][version] = 1.5
@@ -40,18 +8,15 @@ projects[wysiwyg][version] = 2.x-dev
 projects[simplehtmldom][version] = 2.1
 
 ; External libraries
-libraries[raphael][download][type] = "git"
-libraries[raphael][download][url] = "https://github.com/DmitryBaranovskiy/raphael.git"
-libraries[raphael][download][tag] = "v2.1.2"
+libraries[raphael][download][type] = "get"
+libraries[raphael][download][url] = "https://github.com/DmitryBaranovskiy/raphael/archive/v2.1.3.zip"
 
-libraries[spinjs][download][type] = "git"
-libraries[spinjs][download][url] = "https://github.com/fgnass/spin.js.git"
-libraries[spinjs][download][tag] = "2.0.1"
+libraries[spinjs][download][type] = "get"
+libraries[spinjs][download][url] = "https://github.com/fgnass/spin.js/archive/v2.0.2.zip"
 
-libraries[codemirror][download][type] = "git"
-libraries[codemirror][download][url] = "https://github.com/marijnh/CodeMirror.git"
-libraries[codemirror][download][tag] = "4.1.0"
+libraries[codemirror][download][type] = "get"
+libraries[codemirror][download][url] = "https://github.com/codemirror/CodeMirror/archive/5.0.0.zip"
 
-libraries[php-markdown][download][type] = "git"
-libraries[php-markdown][download][url] = "https://github.com/michelf/php-markdown.git"
-libraries[php-markdown][download][tag] = "x1.2.8"
+libraries[php-markdown][download][type] = "get"
+libraries[php-markdown][download][url] = "https://github.com/michelf/php-markdown/archive/x1.2.8.zip"
+
