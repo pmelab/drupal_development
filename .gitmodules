@@ -10,3 +10,6 @@
 [submodule "modules/codemirror"]
 	path = modules/codemirror
 	url = git@github.com:pmelab/codemirror.git
+[submodule "modules/formawesome"]
+	path = modules/formawesome
+	url = git@github.com:pmelab/formawesome.git
